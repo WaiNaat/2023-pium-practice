@@ -13,7 +13,6 @@ defaults:
     working-directory: frontend
 
 permissions:
-  pull-requests: write
   checks: write
 
 jobs:
