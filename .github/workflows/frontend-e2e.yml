@@ -1,4 +1,4 @@
-name: Frontend Cypress E2E Test
+name: Frontend E2E Test
 
 on:
   pull_request:
@@ -16,7 +16,7 @@ permissions:
   checks: write
 
 jobs:
-  cypress-run:
+  cypress:
     runs-on: ubuntu-latest
     steps:
       - name: Set up repository
